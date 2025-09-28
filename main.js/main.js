@@ -35,6 +35,7 @@ async function getData(segment) {
     console.log('Результат >', result)
     return result;
   } catch (error) {
+    console.log(error.message)
     return error.message;
   }
 }
